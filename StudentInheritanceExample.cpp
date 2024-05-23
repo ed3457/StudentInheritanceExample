@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+#include "GradStudent.h"
+
+#include "OnlineStudent.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
+    Student st1 ("Math", "James", "1234");
+
+    GradStudent st2("Math", "Mary", "34399", "Jacob");
+
+    OnlineStudent st3 ("English", "Sheryl", "21212", "NC");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
