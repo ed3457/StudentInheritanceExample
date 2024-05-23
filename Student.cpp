@@ -30,11 +30,11 @@ string Student::getName()
 	return name;
 }
 
-Student::Student()
+Student::Student():Student("000000", "Not assigned!", "Not assigned!")
 {
-	setID("000000");
+	/*setID("000000");
 	setName("Not assigned!");
-	setMajor("Not assigned!"); 
+	setMajor("Not assigned!"); */
 }
 
 Student::Student(string m, string n, string i)

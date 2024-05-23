@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GradStudent.cpp" />
+    <ClCompile Include="OnlineStudent.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="StudentInheritanceExample.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GradStudent.h" />
+    <ClInclude Include="OnlineStudent.h" />
     <ClInclude Include="Student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
